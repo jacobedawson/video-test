@@ -1,7 +1,6 @@
 		function two() {
 			console.log('script #2 is running');
-			var x = 10;
-			for (i = 0; i < x; i++) {
+			for (i = 0; i < 10; i++) {
 				console.log(i);
 			}
 		}
