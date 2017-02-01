@@ -1,6 +1,8 @@
 		function two() {
-			setTimeout(function() {
-				console.log('I blocked for 3 seconds');
-			}, 3000);
+			(i = 0; i <= 10000; i++) {
+				if (i === 10000) {
+					console.log('script finished');
+				}
+			};
 		}
 		two();
