@@ -1,7 +1,6 @@
 		function two() {
-			console.log('script #2 is running');
-			for (i = 0; i < 10; i++) {
-				console.log(i);
-			}
+			setTimeout(function() {
+				console.log('I blocked for 3 seconds');
+			}, 3000);
 		}
-			two();
+		two();
